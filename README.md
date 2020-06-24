@@ -9,19 +9,19 @@ Windows Subsystem for Linux. Windows Subsystem for Linux (WSL) is a compatibilit
 ```console
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
-## Allow Copy & Paste
+### Allow Copy & Paste
 ```console
 sudo apt-get autoremove open-vm-tools
 sudo apt-get install open-vm-tools-desktop
 ```
 
-## Install Packages
+### Install Packages
 ```console
 sudo apt-get update
 sudo apt-get install python-pip
 ```
 
-## Install Anaconda
+### Install Anaconda
 1. Download anaconda3.
 ```console
 curl -O https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
@@ -46,4 +46,9 @@ If can not activate conda environment, I come up with a workaround below.
 source activate
 conda deactivate
 conda activate nlp
+```
+
+## Install Python Packages
+```console
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch -y
 ```
