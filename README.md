@@ -40,6 +40,7 @@ python -m ipykernel install --user --name nlp --display-name "nlp"
 ```
 
 **CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.**
+
 If can not activate conda environment, I come up with a workaround below.
 ```console
 source activate
