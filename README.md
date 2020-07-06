@@ -25,6 +25,7 @@ sudo apt-get install python-pip
 1. Download anaconda3.
 ```console
 curl -O https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+bash Anaconda3-2020.02-Linux-x86_64.sh
 export PATH=~/anaconda3/bin:$PATH
 conda --version
 ```
