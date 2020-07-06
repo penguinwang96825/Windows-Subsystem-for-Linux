@@ -35,7 +35,7 @@ conda config --set auto_activate_base false
 conda update conda
 conda update anaconda
 conda create --name nlp python=3.7
-conda activate nlp
+source activate nlp
 conda install ipykernel -y
 python -m ipykernel install --user --name nlp --display-name "nlp"
 ```
