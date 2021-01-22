@@ -9,19 +9,28 @@ Windows Subsystem for Linux. Windows Subsystem for Linux (WSL) is a compatibilit
 ```console
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
+4. Visit homepage through `C:\Users\user\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc\LocalState\rootfs\home\`
+
 ### Allow Copy & Paste
 ```console
 sudo apt-get autoremove open-vm-tools
 sudo apt-get install open-vm-tools
 ```
 
+## Connect with GitHub
+
+### SSH
+1. The client can generate a public-private key pair as follows: `ssh-keygen`
+2. Now, the client can find his/her public key as follows: `cat ~/.ssh/id_rsa.pub`
+3. Copy your public key to GitHub SSH and GPG keys section.
+
+## Ananconda and Python
+
 ### Install Packages
 ```console
 sudo apt-get update
 sudo apt-get install python-pip
 ```
-
-You can view homepage through `C:\Users\user\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc\LocalState\rootfs\home\`
 
 ### Install Anaconda
 1. Download anaconda3.
