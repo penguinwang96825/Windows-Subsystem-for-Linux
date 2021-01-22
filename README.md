@@ -12,7 +12,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 ### Allow Copy & Paste
 ```console
 sudo apt-get autoremove open-vm-tools
-sudo apt-get install open-vm-tools-desktop
+sudo apt-get install open-vm-tools
 ```
 
 ### Install Packages
@@ -20,6 +20,8 @@ sudo apt-get install open-vm-tools-desktop
 sudo apt-get update
 sudo apt-get install python-pip
 ```
+
+You can view homepage through `C:\Users\user\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc\LocalState\rootfs\home\`
 
 ### Install Anaconda
 1. Download anaconda3.
